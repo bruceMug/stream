@@ -18,7 +18,7 @@ def load_data(nrows):
 
 data_load_state = st.text('Loading data...')
 data = load_data(10000)
-data_load_state.text("Done! (using st.cache)")
+data_load_state.text("Done!")
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
